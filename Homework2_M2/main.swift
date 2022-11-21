@@ -2,8 +2,6 @@
 
 import Foundation
 
-print("Hello, World!")
-
 var property1 = Property(area: 150, price: 60000, owner: "Kamila")
 var property2 = Property(area: 230, price: 125000, owner: "Aziza")
 var property3 = Property(area: 80, price: 55000, owner: "Aidana")
