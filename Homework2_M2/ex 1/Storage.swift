@@ -3,12 +3,12 @@
 import Foundation
 
 class Storage: Property {
-    var productsArray = [Products]()
-    init(productsArray: Products, area: Int, price: Int, owner: String) {
+    var productsArray = [Product]()
+    init(productsArray: Product, area: Int, price: Int, owner: String) {
         super.init(area: area, price: price, owner: owner)
     }
     
-    func addProd(_ prod: Products){
+    func addProd(_ prod: Product){
         productsArray.append(prod)
     }
     

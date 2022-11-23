@@ -11,7 +11,11 @@
 		042F2972292BFD6200433E52 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F2971292BFD6200433E52 /* Property.swift */; };
 		042F2974292BFD9100433E52 /* Apartment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F2973292BFD9100433E52 /* Apartment.swift */; };
 		042F2976292BFDC500433E52 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F2975292BFDC500433E52 /* Storage.swift */; };
-		042F2978292BFDE600433E52 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F2977292BFDE600433E52 /* Products.swift */; };
+		042F2978292BFDE600433E52 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F2977292BFDE600433E52 /* Product.swift */; };
+		049BAFEE292C01FA00809113 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BAFED292C01FA00809113 /* Products.swift */; };
+		049BAFF0292C025B00809113 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BAFEF292C025B00809113 /* Store.swift */; };
+		049BAFF2292C028800809113 /* AutoParts_store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BAFF1292C028800809113 /* AutoParts_store.swift */; };
+		049BAFF4292C02C900809113 /* Clothing_store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BAFF3292C02C900809113 /* Clothing_store.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,7 +36,11 @@
 		042F2971292BFD6200433E52 /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
 		042F2973292BFD9100433E52 /* Apartment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apartment.swift; sourceTree = "<group>"; };
 		042F2975292BFDC500433E52 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
-		042F2977292BFDE600433E52 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		042F2977292BFDE600433E52 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		049BAFED292C01FA00809113 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		049BAFEF292C025B00809113 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		049BAFF1292C028800809113 /* AutoParts_store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoParts_store.swift; sourceTree = "<group>"; };
+		049BAFF3292C02C900809113 /* Clothing_store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clothing_store.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +74,32 @@
 			isa = PBXGroup;
 			children = (
 				042F296A292BFD2F00433E52 /* main.swift */,
+				049BAFE9292C011700809113 /* ex 1 */,
+				049BAFEA292C018900809113 /* ex 2 */,
+			);
+			path = Homework2_M2;
+			sourceTree = "<group>";
+		};
+		049BAFE9292C011700809113 /* ex 1 */ = {
+			isa = PBXGroup;
+			children = (
 				042F2971292BFD6200433E52 /* Property.swift */,
 				042F2973292BFD9100433E52 /* Apartment.swift */,
 				042F2975292BFDC500433E52 /* Storage.swift */,
-				042F2977292BFDE600433E52 /* Products.swift */,
+				042F2977292BFDE600433E52 /* Product.swift */,
 			);
-			path = Homework2_M2;
+			path = "ex 1";
+			sourceTree = "<group>";
+		};
+		049BAFEA292C018900809113 /* ex 2 */ = {
+			isa = PBXGroup;
+			children = (
+				049BAFEF292C025B00809113 /* Store.swift */,
+				049BAFED292C01FA00809113 /* Products.swift */,
+				049BAFF1292C028800809113 /* AutoParts_store.swift */,
+				049BAFF3292C02C900809113 /* Clothing_store.swift */,
+			);
+			path = "ex 2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,11 +160,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049BAFF0292C025B00809113 /* Store.swift in Sources */,
 				042F2972292BFD6200433E52 /* Property.swift in Sources */,
 				042F2976292BFDC500433E52 /* Storage.swift in Sources */,
-				042F2978292BFDE600433E52 /* Products.swift in Sources */,
+				042F2978292BFDE600433E52 /* Product.swift in Sources */,
 				042F296B292BFD2F00433E52 /* main.swift in Sources */,
 				042F2974292BFD9100433E52 /* Apartment.swift in Sources */,
+				049BAFF4292C02C900809113 /* Clothing_store.swift in Sources */,
+				049BAFEE292C01FA00809113 /* Products.swift in Sources */,
+				049BAFF2292C028800809113 /* AutoParts_store.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
